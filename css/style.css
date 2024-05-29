@@ -1,0 +1,86 @@
+@import url('https://fonts.googleapis.com/css2?family=Figtree:ital,wght@0,300..900;1,300..900&display=swap');
+
+*{
+    margin: 5px 40px;
+    padding: 0;
+    font-family: 'Figtree' , monospace;
+    font-weight: 400;
+
+}
+
+:root {   
+    --color-blanco: #F2F4F3;
+    --color-negro: #191919;
+    --color-grisOscuro: #292929;
+    --color-amarillo: #D8C231;
+    --color-rojo: #BC1038;
+    --color-gris: #5F7470;
+
+}
+
+body{
+    background-color: var(--color-negro);
+    /* border: #D8C231 1px solid; */
+    min-height: 100%;
+}
+
+header{
+    color: var(--color-blanco);
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    /* border: #D8C231 solid 1px; */
+    background-color: var(--color-grisOscuro);
+
+}
+
+h2{
+    margin: 10px;
+    font-weight: 500;
+}
+
+nav{
+    display: flex;
+    /* border: #BC1038 solid 1px; */
+    align-items: center;
+
+
+
+}
+
+a{
+    color: var(--color-blanco);
+    font-size: 20px;
+    text-decoration: none;
+    margin-right: 30px;
+}
+
+button{
+    width: 150px;
+    height: 50px;
+    background-color: var(--color-rojo);
+    border-radius: 5px;
+    outline: none;
+    border: none;
+    box-shadow: none;
+    cursor: pointer;
+    color: var(--color-blanco);
+    font-size: 20px;
+
+}
+
+main{
+    border: #BC1038 1px solid;
+}
+
+section{
+    display: flex;
+}
+
+section div{
+    border: var(--color-amarillo)solid 1px;
+}
+p{
+    color: var(--color-blanco);
+}
+
